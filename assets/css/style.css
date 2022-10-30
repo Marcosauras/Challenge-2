@@ -1,0 +1,49 @@
+* {
+    margin: 2px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+
+
+body {
+    background-color: rgba(42, 45, 44, 0.692);
+    color: rgb(255, 255, 255);
+}
+
+header {
+    background-image: url(/assets/images/Photo-of-Flordia-cropped.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 175px;
+    margin: 20px
+}
+section {
+    background-color: aliceblue;
+    color: black;
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+.header-nav{
+    display: inline-block;
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: blue;
+}
+
+.header-nav li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* h1.headertext{
+    color: rgb(0, 0, 0);
+    text-align: center;
+} */
