@@ -1,0 +1,139 @@
+:root {
+    --padding-spacing: 200px;
+    --border-rad: 12px;
+    --border-color: black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+body{
+    background-image: url(/assets/images/Photo-of-Flordia-cropped.jpg);
+}
+h1 {
+    display: flex;
+    box-sizing: content-box;
+    max-width: 350px;
+    padding-left: 5px;
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    font-size: 48px;
+}
+/* setting the headers color and size */
+header { 
+    background-image: url(/assets/images/Photo-of-Flordia-cropped.jpg);
+    background-color: #5dc5a1;
+    background-size: 100%;
+    min-height: 175px;
+    border-radius: var(--border-rad);
+    border: 5px solid var(--border-color);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* Controls all sections ( about-me, and work) */
+section {
+    color: rgb(7, 7, 7);
+}
+
+
+
+footer{
+    padding: 20px;
+    background-color: rgb(209, 220, 231);
+    border-radius: var(--border-rad);
+    border: 5px solid var(--border-color);
+    margin: 5px;
+}
+/* Controls the navagation setting in the header */
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+    font-size: 32px;
+}
+/* Controls the individual items in the navagation bar */
+.header-nav li{
+    display: inline-block;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+.header-nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.header-nav a:hover{
+    margin: 0px;
+    color: azure;
+}
+
+/* controls the h1 in the header (Marc Hamilton) */
+.headertext{
+    color: rgb(0, 0, 0); 
+}
+.big-words {
+    display: flex;
+    background-color: lightblue;
+    border-radius: 2px;
+    margin: 5px;
+    justify-content: center;
+    border: 3px solid var(--border-color);
+}
+
+.about-me-div{
+    display: block;
+}
+
+.about-me-p {
+    display: flex;
+    background-color: rgb(105, 168, 115);
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border: 4px solid var(--border-color);
+    border-radius: var(--border-rad);
+    font-size: 18px;
+}
+
+.work-links {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(105, 160, 142);
+    border-radius: var(--border-rad);
+    border: 5px solid var(--border-color);
+    margin: 5px;
+}
+
+.work-links a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.work-links figure img{
+    border: 5px solid #465550;
+    max-width: 450px;
+    min-height: 300px;
+    margin: 5px;
+    padding: 0px;
+    border-radius: var(--border-rad)
+}
+
+.work-links figure img:hover{
+    box-shadow: rgb(26, 61, 79) 0px 0px 10px;
+}
+
+.work-links figcaption{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-me {
+}
