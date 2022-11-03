@@ -29,7 +29,6 @@ h1 {
 /* setting the headers color and size */
 header { 
     background-image: url(/assets/images/Photo-of-Flordia.jpg);
-    background-color: #5dc5a1;
     background-size: 100%;
     min-height: 175px;
     border-radius: var(--border-rad);
