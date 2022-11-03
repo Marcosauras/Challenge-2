@@ -30,9 +30,8 @@ h1 {
 header { 
     background-image: url(/assets/images/Photo-of-Flordia.jpg);
     background-size: 100%;
+    background: no-repeat;
     min-height: 175px;
-    border-radius: var(--border-rad);
-    border: 5px solid var(--border-color);
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -40,8 +39,10 @@ header {
 section {
     color: rgb(7, 7, 7);
 }
-
+/* configure the footers underline on the links */
 li a{
+    display: flex;
+    flex-wrap: wrap;
     text-decoration: none;
 }
 li a:hover{
@@ -54,6 +55,7 @@ li {
 
 footer{
     display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     background-color: rgb(209, 220, 231);
     border: 5px solid var(--border-color);
@@ -70,7 +72,7 @@ footer{
 }
 /* Controls the individual items in the navagation bar */
 .header-nav li{
-    display: inline-block;
+    /* display: inline-block; */
     padding-top: 5px;
     margin-left: 10px;
 }
@@ -145,4 +147,31 @@ footer{
 .work-links figcaption{
     display: flex;
     justify-content: center;
+}
+@media only screen and (max-width: 480px) {
+    .big-words{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .work-links figure img{
+        max-width: 300px;
+        object-fit: cover;
+    }
+    .big-words{
+        font-size: 24px;
+    }
+    .header-nav a{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .work-links figure img{
+        max-width: 275px;
+        object-fit: cover;
+    }
+    .header-nav a{
+        flex-direction: column;
+    }
 }
