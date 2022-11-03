@@ -9,10 +9,13 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+}
+
+html{
+    scroll-behavior: smooth;
 }
 body{
-    background-image: url(/assets/images/Photo-of-Flordia-cropped.jpg);
+    background-image: url(/assets/images/Photo-of-Flordia.jpg);
 }
 h1 {
     display: flex;
@@ -25,7 +28,7 @@ h1 {
 }
 /* setting the headers color and size */
 header { 
-    background-image: url(/assets/images/Photo-of-Flordia-cropped.jpg);
+    background-image: url(/assets/images/Photo-of-Flordia.jpg);
     background-color: #5dc5a1;
     background-size: 100%;
     min-height: 175px;
@@ -39,12 +42,21 @@ section {
     color: rgb(7, 7, 7);
 }
 
-
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    margin: 0px;
+    color: azure; 
+}
+li {
+    list-style: none;
+}
 
 footer{
+    display: flex;
     padding: 20px;
     background-color: rgb(209, 220, 231);
-    border-radius: var(--border-rad);
     border: 5px solid var(--border-color);
     margin: 5px;
 }
@@ -78,17 +90,18 @@ footer{
 .headertext{
     color: rgb(0, 0, 0); 
 }
+/* This only control the headers of each section, About-me, Work and Contact me */
 .big-words {
     display: flex;
+    writing-mode: sideways-rl;
     background-color: lightblue;
     border-radius: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
     margin: 5px;
-    justify-content: center;
     border: 3px solid var(--border-color);
-}
-
-.about-me-div{
-    display: block;
+    align-items: center;
+    font-size: 40px;
 }
 
 .about-me-p {
@@ -96,19 +109,19 @@ footer{
     background-color: rgb(105, 168, 115);
     align-items: center;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
     border: 4px solid var(--border-color);
-    border-radius: var(--border-rad);
     font-size: 18px;
 }
 
 .work-links {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     background-color: rgb(105, 160, 142);
-    border-radius: var(--border-rad);
     border: 5px solid var(--border-color);
     margin: 5px;
+    padding-bottom: 5px;
 }
 
 .work-links a{
@@ -133,7 +146,4 @@ footer{
 .work-links figcaption{
     display: flex;
     justify-content: center;
-}
-
-.contact-me {
 }
