@@ -13,22 +13,13 @@
 
 html{
     scroll-behavior: smooth;
-<<<<<<< HEAD
-=======
-    background-color: #9eecd3;
->>>>>>> 6bd838be7f980d7137042875440f5fbee7639aea
 }
 h1 {
     display: flex;
     box-sizing: content-box;
     max-width: 350px;
-<<<<<<< HEAD
     padding-left: 0px;
     background-color: #b6bfbc;
-=======
-    padding-left: 5px;
-    border: 3px solid rgb(43, 45, 46);
->>>>>>> 6bd838be7f980d7137042875440f5fbee7639aea
     border-radius: 10px;
     font-size: 48px;
 }
@@ -158,6 +149,9 @@ footer{
     max-width: 150px;
     float: left;
     margin-left: 10px;
+}
+.first-project {
+
 }
 @media only screen and (max-width: 480px) {
     .big-words{
