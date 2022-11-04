@@ -13,28 +13,27 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: #84a69b;
 }
 h1 {
     display: flex;
     box-sizing: content-box;
     max-width: 350px;
-    padding-left: 5px;
-    border: 3px solid lightblue;
+    padding-left: 0px;
+    background-color: #b6bfbc;
     border-radius: 10px;
     font-size: 48px;
 }
 /* setting the headers color and size */
 header { 
     background-size: 100%;
-    background: no-repeat;
+    background-color: #788f9c;
+    border: 5px solid rgb(90, 86, 86);
     min-height: 175px;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 /* Controls all sections ( about-me, and work) */
 section {
-    color: rgb(7, 7, 7);
+    background-color: #e9f4f0;
+    color: rgb(22, 22, 22);
 }
 /* configure the footers underline on the links */
 li a{
@@ -57,8 +56,6 @@ footer{
     flex-wrap: wrap;
     padding: 20px;
     background-color: rgb(209, 220, 231);
-    border: 5px solid var(--border-color);
-    margin: 5px;
 }
 /* Controls the navagation setting in the header */
 .header-nav{
@@ -105,7 +102,7 @@ footer{
 
 .about-me-p {
     display: flex;
-    background-color: rgb(105, 168, 115);
+    background-color: rgb(255, 255, 255);
     align-items: center;
     margin: 5px;
     padding: 10px;
@@ -117,7 +114,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(105, 160, 142);
+    background-color: rgb(252, 252, 252);
     /* border: 5px solid var(--border-color); */
     margin: 5px;
     padding-bottom: 5px;
@@ -125,7 +122,7 @@ footer{
 
 .work-links a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(25, 27, 29);
 
 }
 
@@ -145,6 +142,13 @@ footer{
 .work-links figcaption{
     display: flex;
     justify-content: center;
+}
+
+.profile {
+    border:3px solid #465550;
+    max-width: 150px;
+    float: left;
+    margin-left: 10px;
 }
 @media only screen and (max-width: 480px) {
     .big-words{
