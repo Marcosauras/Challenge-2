@@ -22,56 +22,56 @@
             </nav>
         </header>
 <!-- Section 1; control the About me portion of the page. -->
-        <section>
-            <div class="about-me-div my-24 m-8 grid md:grid-cols-2" id="about-me">
-                <div class="px-4 py-1 w-8/12 rounded-full justify-items-center bg-gradient-to-r from-sky-500 to-indigo-500">
-                    <img class="profile rounded-full" src="/assets/images/Linked In Profile Picture.jpg" alt ="Photo-of-Marc">
+        <section class="content-center">
+            <div class="about-me-div my-24 m-8 grid md:grid-cols-2 place-items-center" id="about-me">
+                <div class="px-3 py-1 w-8/12 rounded-full content-center bg-gradient-to-r from-sky-500 to-indigo-500">
+                    <img class="profile content-center rounded-full" src="assets/images/Linked In Profile Picture.jpg" alt ="Photo-of-Marc">
                 </div>
-                    <p class="about-me-p m-10">You may be asking. Who is Marc Hamilton? Well that's what I'm here for. I'm 21 year old male with an amazing husband, 10 siblings and 2 pets, Foster (my cat)
-                        and Hamlet (my dog). Growing up in a big family has taught me how import it is to work together and how proper communication can help increase how quickly a task gets completed.
+                <p class="about-me-p m-10 text-xl">You may be asking. Who is Marc Hamilton? Well that's what I'm here for. I'm 21 year old male with an amazing husband, 10 siblings and 2 pets, Foster (my cat)
+                and Hamlet (my dog). Growing up in a big family has taught me how import it is to work together and how proper communication can help increase how quickly a task gets completed.
                 </p> 
             </div>    
         </section>
 <!-- Section 2; control the links of the Work portion. -->
         <section> 
             <h2 class="big-words" id="My-Projects">My Projects</h2>
-            
-            <div class="work-links p-3 m-4 flex ">
-                <figure class="first-project"> 
-                    <a href="https://marcosauras.github.io/Horiseon/">
-                    <img class="object-cover h-48 w-96" src="./assets/images/Horiseon-Home-page-image.png" alt="Horiseon's home page"></img>
-                    </a>
-                    <figcaption><a href="https://marcosauras.github.io/Horiseon/">Horiseon Webpage</a></figcaption>
-                </figure>
-                <figure> 
-                    <a href="https://marcosauras.github.io/prework-study-guide/">
-                    <img class="object-cover h-48 w-96" src="./assets/images/Pen and paper.png" alt="Pen and paper"></img>
-                    </a>
-                    <figcaption><a href="https://marcosauras.github.io/prework-study-guide/">Prework Study Guide</a></figcaption>
-                </figure>
-                <figure> 
+
+            <div class="work-links p-3 m-4 grid gap-4 place-items-center grid-cols-2 md:grid-cols-3">
+                <figure class="rounded col-span-2 bg-gradient-to-r from-sky-500 to-indigo-500 scale-75 hover:scale-100"> 
                     <a href="https://ktd10.github.io/Adopt-Dont-Shop/index.html">
-                    <img class="object-cover h-48 w-96" src="./assets/images/group-pets-dog-cat-bird-reptile-rabbit-isolated-whi_191971-5486.webp" alt="Adopt-Dont-Shop"></img>
+                    <img class="object-cover p-1 rounded-lg " src="./assets/images/group-pets-dog-cat-bird-reptile-rabbit-isolated-whi_191971-5486.webp" alt="Adopt-Dont-Shop"></img>
                     </a>
-                    <figcaption><a href="https://ktd10.github.io/Adopt-Dont-Shop/index.html">Adopt don't shop</a></figcaption>
+                    <figcaption class="text-center"><a href="https://ktd10.github.io/Adopt-Dont-Shop/index.html" >Adopt don't shop</a></figcaption>
                 </figure>
-                <figure> 
+                <figure class="rounded bg-gradient-to-r from-sky-500 to-indigo-500 col-span-1 scale-75 hover:scale-100"> 
+                    <a href="https://marcosauras.github.io/Horiseon/">
+                    <img class="object-cover p-1 rounded-lg" src="./assets/images/Horiseon-Home-page-image.png" alt="Horiseon's home page"></img>
+                    </a>
+                    <figcaption class ="text-center"><a href="https://marcosauras.github.io/Horiseon/">Horiseon Webpage</a></figcaption>
+                </figure>
+                <figure class="rounded bg-gradient-to-r from-sky-500 to-indigo-500 col-span-1 scale-75 hover:scale-100"> 
+                    <a href="https://marcosauras.github.io/prework-study-guide/">
+                    <img class="object-cover p-1 rounded-lg" src="./assets/images/Pen and paper.png" alt="Pen and paper"></img>
+                    </a>
+                    <figcaption class ="text-center"><a href="https://marcosauras.github.io/prework-study-guide/">Prework Study Guide</a></figcaption>
+                </figure>
+                <figure class="rounded bg-gradient-to-r from-sky-500 to-indigo-500 col-span-1 scale-75 hover:scale-100"> 
                     <a href="https://lumogrindz.herokuapp.com/">
-                    <img class="object-none h-48 w-96" src="./assets/images/Christmas-lights.png" alt="LumoGrindz"></img>
+                    <img class="object-cover p-1 rounded-lg" src="./assets/images/Christmas-lights.png" alt="LumoGrindz"></img>
                     </a>
-                    <figcaption><a href="https://lumogrindz.herokuapp.com/"></a>LumoGrindz</figcaption>
+                    <figcaption class ="text-center"><a href="https://lumogrindz.herokuapp.com/"></a>LumoGrindz</figcaption>
                 </figure>
-                <figure> 
+                <figure class="rounded bg-gradient-to-r from-sky-500 to-indigo-500 col-span-1 scale-75 hover:scale-100"> 
                     <a href="#">
-                    <img class="object-cover h-48 w-96" src="./assets/images/Beach-Vacation.png" alt="Towel on the sand on a vacation"></img>
+                    <img class="object-cover p-1 rounded-lg" src="./assets/images/Beach-Vacation.png" alt="Towel on the sand on a vacation"></img>
                     </a>
-                    <figcaption><a href="#">(Fake link) Vacation spots</a></figcaption>
+                    <figcaption class ="text-center"><a href="#">(Fake link) Vacation spots</a></figcaption>
                 </figure>
-                <figure> 
+                <figure class="rounded bg-gradient-to-r from-sky-500 to-indigo-500 col-span-1 scale-75 hover:scale-100"> 
                     <a href="https://lumogrindz.herokuapp.com/">
-                    <img class="object-cover h-48 w-96" src="./assets/images/box-of-toys.png" alt="LumoGrindz (working application)"></img>
+                    <img class="object-cover p-1 rounded-lg" src="./assets/images/box-of-toys.png" alt="LumoGrindz (working application)"></img>
                     </a>
-                    <figcaption><a href="#">(Fake link) Toy store</a></figcaption>
+                    <figcaption class ="text-center"><a href="#">(Fake link) Toy store</a></figcaption>
                 </figure>
             </div>
 
