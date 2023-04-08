@@ -13,13 +13,13 @@ by typing it into the URL of your web browser and you will be abke to go to this
 This website is useful to any employers who would like to see what I have completed and what I am currently working on, along with ways to contact me if you would like to comunicate directly to me. 
 Provide instructions and examples for use.
 
-![Screenshot-of-marcs-portfolio](./assets/images/Screenshot-of-marcs-portfolio.png "Marc's Portfolio")
+![Alt text](assets/images/Portfolio.png)
 
 if you would like to go to any of my projects just click on the photo or text under said folder and it will take you to the porject that corasponds with it.
 
-for example if you were to click on the horiseon image it would then take you to the horiseon webpage.
+for example if you were to click on the adopt don't shop image, it would take you to my adopt don't shop web page where you can see animals up for adoption near you.
 
-![Horiseons homepage](./assets/images/Horiseon-Home-page-image.png "Horiseons homepage")
+![Adopt Don't Shop](assets/images/Adopt%20Don't%20Shop.png)
 
 ## Credits
 Marc Hamilton
